@@ -15,6 +15,7 @@
     <!--Custom CSS File Link-->
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/style.css"/> 
+    <link rel="stylesheet" href="css/style.css"/>
     
 
 </head>
