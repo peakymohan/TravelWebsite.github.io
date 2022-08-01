@@ -49,6 +49,7 @@
             <div class="box">
                 <img src="images/icon-1.png" alt="icon1">
                 <h3>Adventure</h3>            <!--START FROM HERE VIDEO 28:50-->
+                vchdcjhd
             </div>
         </div>
 
