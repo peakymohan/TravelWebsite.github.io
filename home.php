@@ -59,68 +59,7 @@
 
 
 
-    <!--home packages section starts-->
-    <section class="home-packages">
 
-        <h1 class="heading-title">Our Packages</h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/img-1.jpg" alt="img1">
-                </div>
-
-                <div class="content">
-                    <h3>
-                        Tour & Adventure
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias </p>
-                    <a href="book.php" class="btn">Book Now</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="box-container">
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/img-2.jpg" alt="img1">
-                </div>
-
-                <div class="content">
-                    <h3>
-                        Tour & Adventure
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias </p>
-                    <a href="book.php" class="btn">Book Now</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="box-container">
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/img-3.jpg" alt="img1">
-                </div>
-
-                <div class="content">
-                    <h3>
-                        Tour & Adventure
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias </p>
-                    <a href="book.php" class="btn">Book Now</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="load-more">
-            <a href="package.php" class="btn">Load More</a>
-        </div>
-
-    </section>
-    <!--home packages section ends-->
 
     <!--home offer section starts-->
     <section class="home-offer">
