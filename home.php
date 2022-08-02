@@ -91,6 +91,7 @@
         <div class="box-container">
             <div class="box">
                 <img src="images/icon-1.png" alt="icon1">
+
                 <h3>Adventure</h3>    
             </div>
 
@@ -122,6 +123,10 @@
             <div class="box">
                 <img src="images/icon-6.png" alt="icon6">
                 <h3>Camping</h3>    
+
+                <h3>Adventure</h3>
+                <!--START FROM HERE VIDEO 28:50-->
+
             </div>
         </div>
 
@@ -209,6 +214,21 @@
 <!-- home offer section ends -->
 
 
+
+
+
+
+
+    <!--home offer section starts-->
+    <section class="home-offer">
+        <div class="content">
+            <h3> Upto 40% off!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores nemo ipsum inventore veritatis magni!</p>
+            <a href="book.php" class="btn">book now</a>       
+        </div>
+
+    </section>
+    <!--home offer section starts-->
 
 
 
