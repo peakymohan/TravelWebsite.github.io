@@ -28,12 +28,12 @@
 
         <nav class="navbar">
             <a href="home.php">Home</a>
-            <a href="home.php">Gallery</a>
+            <a href="#">Gallery</a>
             <a href="about.php">About</a>
             <a href="package.php">Packages</a>
-            <a href="home.php">Services</a>
+            <a href="#">Services</a>
             <a href="book.php">Booking</a>
-            <a href="book.php">Contact Us</a>
+            <a href="#">Contact Us</a>
         </nav>
 
         <div class="icons">

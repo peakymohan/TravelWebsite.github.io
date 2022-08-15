@@ -13,16 +13,16 @@ window.onscroll = () => {
    searchBar.classList.remove('active');
 };
 
-searchBtn.addEventListener('click', () =>{
+searchBtn.addEventListener('click', () => {
    searchBtn.classList.toggle('fa-times');
    searchBar.classList.toggle('active');
 });
 
-loginBtn.addEventListener('click', () =>{
+loginBtn.addEventListener('click', () => {
    loginForm.classList.add('active');
 });
 
-formClose.addEventListener('click', () =>{
+formClose.addEventListener('click', () => {
    loginForm.classList.remove('active');
 });
 
@@ -34,12 +34,12 @@ menu.onclick = () => {
 
 
 var swiper = new Swiper(".home-slider", {
-   
+
    loop: true,
    autoplay: {
       delay: 4000,
-    },
-    disableOnInteraction: false,
+   },
+   disableOnInteraction: false,
 });
 
 var swiper = new Swiper(".reviews-slider", {
