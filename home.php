@@ -194,7 +194,7 @@
         </div>
 
     </section>
-    <!--home offer section starts-->
+    <!--home offer section ends-->
 
 
 
