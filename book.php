@@ -19,125 +19,88 @@
 </head>
 
 <body>
-
     <!--header section start-->
     <section class="header">
-        <a href="home.php" class="logo">travel</a>
+        <div id="menu-btn" class="fas fa-bars"> </div>
+
+        <a href="home.php" class="logo">Travel</a>
 
         <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="about.php">about</a>
-            <a href="package.php">package</a>
-            <a href="book.php">book</a>
-
+            <a href="home.php">Home</a>
+            <a href="home.php">Gallery</a>
+            <a href="about.php">About</a>
+            <a href="package.php">Packages</a>
+            <a href="home.php">Services</a>
+            <a href="book.php">Booking</a>
+            <a href="book.php">Contact Us</a>
         </nav>
 
-        <div id="menu-btn" class="fas fa-bars">
-
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
         </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="What are You looking for?">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
 
     </section>
     <!--header section ends-->
 
-
     <div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
-        <h1>book</h1>
-
+        <h1>Booking</h1>
     </div>
 
     <!-- booking section starts  -->
+    <section class="booking">
+        <div class="row">
+            <div class="image"><img src="images/booking.jpg" alt="book"></div>
 
-<section class="booking">
+            <form action="">
+                <div class="inputBox">
+                    <h3>Email</h3>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="Place Name">
+                </div>
 
-<h1 class="heading-title">book your trip!</h1>
+                <div class="inputBox">
+                    <h3>Total Persons</h3>
+                    <input type="number" placeholder="How Many?">
+                </div>
 
-<form action="book_form.php" method="post" class="book-form">
+                <div class="inputBox">
+                    <h3>Arrival</h3>
+                    <input type="date">
+                </div>
 
-   <div class="flex">
-      <div class="inputBox">
-         <span>name :</span>
-         <input type="text" placeholder="enter your name" name="name">
-      </div>
-      <div class="inputBox">
-         <span>email :</span>
-         <input type="email" placeholder="enter your email" name="email">
-      </div>
-      <div class="inputBox">
-         <span>phone :</span>
-         <input type="number" placeholder="enter your number" name="phone">
-      </div>
-      <div class="inputBox">
-         <span>address :</span>
-         <input type="text" placeholder="enter your address" name="address">
-      </div>
-      <div class="inputBox">
-         <span>where to :</span>
-         <input type="text" placeholder="place you want to visit" name="location">
-      </div>
-      <div class="inputBox">
-         <span>how many :</span>
-         <input type="number" placeholder="number of guests" name="guests">
-      </div>
-      <div class="inputBox">
-         <span>arrivals :</span>
-         <input type="date" name="arrivals">
-      </div>
-      <div class="inputBox">
-         <span>leaving :</span>
-         <input type="date" name="leaving">
-      </div>
-   </div>
+                <div class="inputBox">
+                    <h3>Departure</h3>
+                    <input type="date">
+                </div>
 
-   <input type="submit" value="submit" class="btn" name="send">
+                <input type="submit" value="Submit" class="btn" name="send">
 
-</form>
+            </form>
+        </div>
 
-</section>
-
-<!-- booking section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
+    <!-- booking section ends -->
 
     <!--Footer Section Start-->
-
     <section class="footer">
 
         <div class="box-container">
 
             <div class="box">
                 <h3>Quick Links</h3>
-                <a href="home.php"><i class="fas fa-angle-right"></i> home</a>
-                <a href="about.php"><i class="fas fa-angle-right"></i>about</a>
-                <a href="package.php"><i class="fas fa-angle-right"></i>package</a>
-                <a href="book.php"><i class="fas fa-angle-right"></i>book</a>
+                <a href="home.php"><i class="fas fa-angle-right"></i> Home</a>
+                <a href="about.php"><i class="fas fa-angle-right"></i> About</a>
+                <a href="package.php"><i class="fas fa-angle-right"></i> Package</a>
+                <a href="book.php"><i class="fas fa-angle-right"></i> Booking</a>
             </div>
 
             <div class="box">
@@ -153,36 +116,30 @@
                 <a href="#"><i class="fas fa-phone"></i> +880 188 2660 360</a>
                 <a href="#"><i class="fas fa-phone"></i> +880 130 9040 483</a>
                 <a href="#"><i class="fas fa-envelope"></i> travelsBD2122@gmail.com</a>
-                <a href="#"><i class="fas fa-map"></i> Dhaka, Bangladesh 400125</a>
+                <a href="#"><i class="fas fa-map"></i> Dhaka, Bangladesh 4025</a>
             </div>
 
             <div class="box">
                 <h3>Follow Us</h3>
-                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
-                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
-                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
-                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
             </div>
 
         </div>
 
         <div class="credit">
-            Created by <span>Afia & Nahin</span> | all rights reserved
+            Created by <span>Afia & Nahin</span> | All Rights Reserved | 2022
         </div>
 
-
-
     </section>
-
     <!--Footer Section End-->
 
-
-
-    <!--custom js file link-->
-    <script src="js/script.js"></script>
-
-    <!-- swiper js link-->
+    <!--Swiper JS Link-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--Custom JS Link-->
+    <script src="js/script.js"></script>
 
 </body>
 

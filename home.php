@@ -22,22 +22,49 @@
 
     <!--header section start-->
     <section class="header">
-        <a href="home.php" class="logo">travel</a>
+        <div id="menu-btn" class="fas fa-bars"> </div>
+
+        <a href="home.php" class="logo">Travel</a>
 
         <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="about.php">about</a>
-            <a href="package.php">package</a>
-            <a href="book.php">book</a>
-
+            <a href="home.php">Home</a>
+            <a href="home.php">Gallery</a>
+            <a href="about.php">About</a>
+            <a href="package.php">Packages</a>
+            <a href="home.php">Services</a>
+            <a href="book.php">Booking</a>
+            <a href="book.php">Contact Us</a>
         </nav>
 
-        <div id="menu-btn" class="fas fa-bars">
-
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
         </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="What are You looking for?">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
 
     </section>
     <!--header section ends-->
+
+    <!--loginForm section starts-->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Email">
+            <input type="password" class="box" placeholder="Password">
+            <input type="submit" value="Log In" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>Forgot Password? <a href="#"> Reset Here</a></p>
+            <p>Don't Have an Account? <a href="#"> Sign Up!</a></p>
+        </form>
+    </div>
+    <!--loginForm section ends-->
 
     <!-- home section starts -->
     <section class="home">
@@ -46,34 +73,33 @@
 
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/home-1.jpg) no-repeat">
                     <div class="content">
-                        <span>explore, discover, travel</span>
-                        <h3>travel arround the world</h3>
-                        <a href="package.php" class="btn">discover more</a>
+                        <span>Explore, Discover, Travel</span>
+                        <h3>Travel Around the World</h3>
+                        <a href="package.php" class="btn">Discover More</a>
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/home-2.jpg) no-repeat">
                     <div class="content">
-                        <span>explore, discover, travel</span>
-                        <h3>discover the new places</h3>
-                        <a href="package.php" class="btn">discover more</a>
+                        <span>Explore, Discover, Travel</span>
+                        <h3>Discover New Places</h3>
+                        <a href="package.php" class="btn">Discover More</a>
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/home-3.jpg) no-repeat">
                     <div class="content">
-                        <span>explore, discover, travel</span>
-                        <h3>make your tour worthwhile</h3>
-                        <a href="package.php" class="btn">discover more</a>
+                        <span>Explore, Discover, Travel</span>
+                        <h3>Make Your Tour Memorable</h3>
+                        <a href="package.php" class="btn">Discover More</a>
                     </div>
                 </div>
 
             </div>
 
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+
 
         </div>
 
@@ -124,118 +150,104 @@
     <section class="home-about">
 
         <div class="image">
-            <img src="images/about-img.jpg" alt="">
+            <img src="images/about-img.jpg" alt="abt img">
         </div>
 
         <div class="content">
-            <h3>about us</h3>
+            <h3>About Us</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
-            <a href="about.php" class="btn">read more</a>
+            <a href="about.php" class="btn">Read More</a>
         </div>
 
     </section>
-
     <!-- home about section ends -->
 
     <!-- home packages section starts  -->
     <section class="home-packages">
 
-        <h1 class="heading-title"> our packages </h1>
+        <h1 class="heading-title">Our Packages</h1>
 
         <div class="box-container">
 
-            <div class="box">
-                <div class="image">
-                    <img src="images/img-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
+        <div class="box">
+            <img src="images/p-1.jpg" alt="p1">
+            <div class="content">
+               <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <div class="price"> $90.00 <span>$120.00</span> </div>
+               <a href="book.php" class="btn">Book Now!</a>
             </div>
+         </div>
 
-            <div class="box">
-                <div class="image">
-                    <img src="images/img-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
+         <div class="box">
+            <img src="images/p-2.jpg" alt="p2">
+            <div class="content">
+               <h3><i class="fas fa-map-marker-alt"></i> Sydney </h3>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+               </div>
+               <div class="price"> $120.00 <span>$150.00</span> </div>
+               <a href="book.php" class="btn">Book Now!</a>
             </div>
+         </div>
 
-            <div class="box">
-                <div class="image">
-                    <img src="images/img-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
+         <div class="box">
+            <img src="images/p-3.jpg" alt="p1">
+            <div class="content">
+               <h3><i class="fas fa-map-marker-alt"></i> Hawai </h3>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+               </div>
+               <div class="price"> $80.00 <span>$100.00</span> </div>
+               <a href="book.php" class="btn">Book Now!</a>
             </div>
+         </div>
 
         </div>
 
-        <div class="load-more"> <a href="package.php" class="btn">load more</a> </div>
+        <div class="load-more"> <a href="package.php" class="btn">Load More</a> </div>
 
     </section>
     <!-- home packages section ends -->
 
-
     <!--home offer section starts-->
     <section class="home-offer">
         <div class="content">
-            <h3> Upto 40% off!</h3>
+            <h3>Upto 45% Off!</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores nemo ipsum inventore veritatis magni!</p>
-            <a href="book.php" class="btn">book now</a>
+            <a href="book.php" class="btn">Book Now!</a>
         </div>
-
     </section>
     <!--home offer section ends-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--Footer Section Start-->
-
     <section class="footer">
 
         <div class="box-container">
 
             <div class="box">
                 <h3>Quick Links</h3>
-                <a href="home.php"><i class="fas fa-angle-right"></i> home</a>
-                <a href="about.php"><i class="fas fa-angle-right"></i>about</a>
-                <a href="package.php"><i class="fas fa-angle-right"></i>package</a>
-                <a href="book.php"><i class="fas fa-angle-right"></i>book</a>
+                <a href="home.php"><i class="fas fa-angle-right"></i> Home</a>
+                <a href="about.php"><i class="fas fa-angle-right"></i> About</a>
+                <a href="package.php"><i class="fas fa-angle-right"></i> Package</a>
+                <a href="book.php"><i class="fas fa-angle-right"></i> Booking</a>
             </div>
 
             <div class="box">
@@ -251,37 +263,29 @@
                 <a href="#"><i class="fas fa-phone"></i> +880 188 2660 360</a>
                 <a href="#"><i class="fas fa-phone"></i> +880 130 9040 483</a>
                 <a href="#"><i class="fas fa-envelope"></i> travelsBD2122@gmail.com</a>
-                <a href="#"><i class="fas fa-map"></i> Dhaka, Bangladesh 400125</a>
+                <a href="#"><i class="fas fa-map"></i> Dhaka, Bangladesh 4025</a>
             </div>
 
             <div class="box">
                 <h3>Follow Us</h3>
-                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
-                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
-                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
-                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
             </div>
 
         </div>
 
         <div class="credit">
-            Created by <span>Afia & Nahin</span> | all rights reserved
+            Created by <span>Afia & Nahin</span> | All Rights Reserved | 2022
         </div>
 
-
-
     </section>
-
     <!--Footer Section End-->
 
-
-
-
-
-    <!-- swiper js link-->
+    <!--Swiper JS Link-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-    <!--custom js file link-->
+    <!--Custom JS Link-->
     <script src="js/script.js"></script>
 
 </body>
