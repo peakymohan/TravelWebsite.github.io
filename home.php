@@ -169,56 +169,56 @@
 
         <div class="box-container">
 
-        <div class="box">
-            <img src="images/p-1.jpg" alt="p1">
-            <div class="content">
-               <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <div class="price"> $90.00 <span>$120.00</span> </div>
-               <a href="book.php" class="btn">Book Now!</a>
+            <div class="box">
+                <img src="images/p-1.jpg" alt="p1">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="book.php" class="btn">Book Now!</a>
+                </div>
             </div>
-         </div>
 
-         <div class="box">
-            <img src="images/p-2.jpg" alt="p2">
-            <div class="content">
-               <h3><i class="fas fa-map-marker-alt"></i> Sydney </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-               </div>
-               <div class="price"> $120.00 <span>$150.00</span> </div>
-               <a href="book.php" class="btn">Book Now!</a>
+            <div class="box">
+                <img src="images/p-2.jpg" alt="p2">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Sydney </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $120.00 <span>$150.00</span> </div>
+                    <a href="book.php" class="btn">Book Now!</a>
+                </div>
             </div>
-         </div>
 
-         <div class="box">
-            <img src="images/p-3.jpg" alt="p1">
-            <div class="content">
-               <h3><i class="fas fa-map-marker-alt"></i> Hawai </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                  <i class="far fa-star"></i>
-               </div>
-               <div class="price"> $80.00 <span>$100.00</span> </div>
-               <a href="book.php" class="btn">Book Now!</a>
+            <div class="box">
+                <img src="images/p-3.jpg" alt="p1">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Hawai </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span> </div>
+                    <a href="book.php" class="btn">Book Now!</a>
+                </div>
             </div>
-         </div>
 
         </div>
 
