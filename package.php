@@ -217,7 +217,7 @@
          <div class="box">
             <img src="images/img-3.jpg" alt="p1">
             <div class="content">
-               <h3><i class="fas fa-map-marker-alt"></i> Japan </h3>
+               <h3><i class="fas fa-map-marker-alt"></i> Canada </h3>
                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -234,7 +234,7 @@
          <div class="box">
             <img src="images/img-4.jpg" alt="p1">
             <div class="content">
-               <h3><i class="fas fa-map-marker-alt"></i> Canada </h3>
+               <h3><i class="fas fa-map-marker-alt"></i> Japan </h3>
                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
