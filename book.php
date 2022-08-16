@@ -48,6 +48,23 @@
     </section>
     <!--header section ends-->
 
+    <!--loginForm section starts-->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Email">
+            <input type="password" class="box" placeholder="Password">
+            <input type="submit" value="Log In" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>Forgot Password? <a href="#"> Reset Here</a></p>
+            <p>Don't Have an Account? <a href="#"> Sign Up!</a></p>
+        </form>
+    </div>
+    <!--loginForm section ends-->
+
     <div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
         <h1>Booking</h1>
     </div>

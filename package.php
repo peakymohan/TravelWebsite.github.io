@@ -22,32 +22,49 @@
 
    <!--header section start-->
    <section class="header">
-        <div id="menu-btn" class="fas fa-bars"> </div>
+      <div id="menu-btn" class="fas fa-bars"> </div>
 
-        <a href="home.php" class="logo">Travel</a>
+      <a href="home.php" class="logo">Travel</a>
 
-        <nav class="navbar">
-            <a href="home.php">Home</a>
-            <a href="#">Gallery</a>
-            <a href="about.php">About</a>
-            <a href="package.php">Packages</a>
-            <a href="#">Services</a>
-            <a href="book.php">Booking</a>
-            <a href="#">Contact Us</a>
-        </nav>
+      <nav class="navbar">
+         <a href="home.php">Home</a>
+         <a href="#">Gallery</a>
+         <a href="about.php">About</a>
+         <a href="package.php">Packages</a>
+         <a href="#">Services</a>
+         <a href="book.php">Booking</a>
+         <a href="#">Contact Us</a>
+      </nav>
 
-        <div class="icons">
-            <i class="fas fa-search" id="search-btn"></i>
-            <i class="fas fa-user" id="login-btn"></i>
-        </div>
+      <div class="icons">
+         <i class="fas fa-search" id="search-btn"></i>
+         <i class="fas fa-user" id="login-btn"></i>
+      </div>
 
-        <form action="" class="search-bar-container">
-            <input type="search" id="search-bar" placeholder="What are You looking for?">
-            <label for="search-bar" class="fas fa-search"></label>
-        </form>
+      <form action="" class="search-bar-container">
+         <input type="search" id="search-bar" placeholder="What are You looking for?">
+         <label for="search-bar" class="fas fa-search"></label>
+      </form>
 
-    </section>
+   </section>
    <!--header section ends-->
+
+   <!--loginForm section starts-->
+   <div class="login-form-container">
+
+      <i class="fas fa-times" id="form-close"></i>
+      <form action="">
+         <h3>Login</h3>
+         <input type="email" class="box" placeholder="Email">
+         <input type="password" class="box" placeholder="Password">
+         <input type="submit" value="Log In" class="btn">
+         <input type="checkbox" id="remember">
+         <label for="remember">Remember Me</label>
+         <p>Forgot Password? <a href="#"> Reset Here</a></p>
+         <p>Don't Have an Account? <a href="#"> Sign Up!</a></p>
+      </form>
+   </div>
+   <!--loginForm section ends-->
 
    <div class="heading" style="background:url(images/header-bg-2.png) no-repeat">
       <h1>Packages</h1>

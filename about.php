@@ -50,6 +50,23 @@
         <h1>About Us</h1>
     </div>
 
+    <!--loginForm section starts-->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Email">
+            <input type="password" class="box" placeholder="Password">
+            <input type="submit" value="Log In" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>Forgot Password? <a href="#"> Reset Here</a></p>
+            <p>Don't Have an Account? <a href="#"> Sign Up!</a></p>
+        </form>
+    </div>
+    <!--loginForm section ends-->
+
     <!--about section starts-->
     <section class="about">
 
@@ -100,10 +117,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
                         vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                         doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
                     <h3>John Smith</h3>
                     <span>Traveler</span>
                     <img src="images/pic-1.png" alt="">
@@ -116,10 +133,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
                         vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                         doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
                     <h3>Bella Poarch</h3>
                     <span>Traveler</span>
                     <img src="images/pic-2.png" alt="">
@@ -131,10 +148,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
                         vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                         doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
                     <h3>Madson</h3>
                     <span>Traveler</span>
                     <img src="images/pic-3.png" alt="">
@@ -148,10 +165,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
                         vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                         doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
                     <h3>Julia Alexa</h3>
                     <span>Traveler</span>
                     <img src="images/pic-4.png" alt="">
@@ -163,10 +180,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
                         vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                         doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
                     <h3>Yaeow</h3>
                     <span>Traveler</span>
                     <img src="images/pic-5.png" alt="">
@@ -179,10 +196,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
                         vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                         doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
                     <h3>Tessa</h3>
                     <span>Traveler</span>
                     <img src="images/pic-6.png" alt="">
@@ -195,7 +212,7 @@
     </section>
 
     <!-- reviews section ends -->
-  
+
     <!--Footer Section Start-->
     <section class="footer">
 
@@ -244,7 +261,7 @@
 
 
 
-    
+
     <!--Swiper JS Link-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!--Custom JS Link-->
