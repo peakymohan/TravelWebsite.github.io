@@ -24,18 +24,17 @@
    <section class="header">
       <div id="menu-btn" class="fas fa-bars"> </div>
 
-      <a href="home.php" class="logo">Travel</a>
+      <a href="home.php" class="logo">Lonely Planet</a>
 
-      <nav class="navbar">
-         <a href="home.php">Home</a>
-         <a href="#">Gallery</a>
-         <a href="about.php">About</a>
-         <a href="package.php">Packages</a>
-         <a href="#">Services</a>
-         <a href="book.php">Booking</a>
-         <a href="#">Contact Us</a>
-      </nav>
-
+<nav class="navbar">
+ <a href="home.php">Home</a>
+ <a href="about.php">About</a>
+ <a href="services.php">Services</a>
+ <a href="package.php">Packages</a>
+ <a href="gallery.php">Gallery</a>
+ <a href="book.php">Booking</a>
+ <a href="contactus.php">Contact Us</a>
+</nav>
       <div class="icons">
          <i class="fas fa-search" id="search-btn"></i>
          <i class="fas fa-user" id="login-btn"></i>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book</title>
+    <title>Home</title>
 
     <!-- swiper css link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
     <!--header section start-->
     <section class="header">
         <div id="menu-btn" class="fas fa-bars"> </div>
@@ -65,49 +66,9 @@
     </div>
     <!--loginForm section ends-->
 
-    <div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
-        <h1>Booking</h1>
+    <div class="heading" style="background:url(images/header-bg-2.png) no-repeat">
+        <h1>Contact Us</h1>
     </div>
-
-    <!-- booking section starts  -->
-    <section class="booking">
-        <div class="row">
-            <div class="image"><img src="images/booking.jpg" alt="book"></div>
-
-            <form action="book_form.php" method="POST">
-                <div class="inputBox">
-                    <h3>Email</h3>
-                    <input type="email" placeholder="Email" name="email">
-                </div>
-                <div class="inputBox">
-                    <h3>Where to</h3>
-                    <input type="text" placeholder="Place Name" name="whereTo">
-                </div>
-
-                <div class="inputBox">
-                    <h3>Total Guest</h3>
-                    <input type="number" placeholder="How Many?" name="totalGuests">
-                </div>
-
-                <div class="inputBox">
-                    <h3>Arrival</h3>
-                    <input type="date" name="arrival">
-                </div>
-
-                <div class="inputBox">
-                    <h3>Departure</h3>
-                    <input type="date" name="departure">
-                </div>
-
-                <input type="submit" value="Submit" class="btn" name="submit">
-
-            </form>
-
-            
-        </div>
-
-    </section>
-    <!-- booking section ends -->
 
     <!--Footer Section Start-->
     <section class="footer">
@@ -159,8 +120,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!--Custom JS Link-->
     <script src="js/script.js"></script>
-
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 

@@ -24,17 +24,17 @@
     <section class="header">
         <div id="menu-btn" class="fas fa-bars"> </div>
 
-        <a href="home.php" class="logo">Travel</a>
+        <a href="home.php" class="logo">Lonely Planet</a>
 
         <nav class="navbar">
-            <a href="home.php">Home</a>
-            <a href="#">Gallery</a>
-            <a href="about.php">About</a>
-            <a href="package.php">Packages</a>
-            <a href="#">Services</a>
-            <a href="book.php">Booking</a>
-            <a href="#">Contact Us</a>
-        </nav>
+         <a href="home.php">Home</a>
+         <a href="about.php">About</a>
+         <a href="services.php">Services</a>
+         <a href="package.php">Packages</a>
+         <a href="gallery.php">Gallery</a>
+         <a href="book.php">Booking</a>
+         <a href="contactus.php">Contact Us</a>
+      </nav>
 
         <div class="icons">
             <i class="fas fa-search" id="search-btn"></i>
@@ -106,45 +106,6 @@
     </section>
     <!-- home section ends -->
 
-    <!--services section starts-->
-    <section class="services">
-        <h1 class="heading-title">
-            Our Services
-        </h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="images/icon-1.png" alt="icon1">
-                <h3>Adventure</h3>
-            </div>
-
-            <div class="box">
-                <img src="images/icon-2.png" alt="icon2">
-                <h3>Tour Guide</h3>
-            </div>
-
-            <div class="box">
-                <img src="images/icon-3.png" alt="icon3">
-                <h3>Trekking</h3>
-            </div>
-
-            <div class="box">
-                <img src="images/icon-4.png" alt="icon4">
-                <h3>Camp Fire</h3>
-            </div>
-
-            <div class="box">
-                <img src="images/icon-5.png" alt="icon5">
-                <h3>Off Road</h3>
-            </div>
-
-            <div class="box">
-                <img src="images/icon-6.png" alt="icon6">
-                <h3>Camping</h3>
-            </div>
-        </div>
-
-    </section>
-    <!--services section ends-->
 
     <!-- home about section starts  -->
     <section class="home-about">
