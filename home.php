@@ -30,11 +30,11 @@
          <a href="home.php">Home</a>
          <a href="about.php">About</a>
          <a href="services.php">Services</a>
-         <a href="package.php">Packages</a>
          <a href="gallery.php">Gallery</a>
+         <a href="package.php">Packages</a>
          <a href="book.php">Booking</a>
          <a href="contactus.php">Contact Us</a>
-      </nav>
+         </nav>
 
         <div class="icons">
             <i class="fas fa-search" id="search-btn"></i>

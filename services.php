@@ -24,14 +24,14 @@
    <section class="header">
       <div id="menu-btn" class="fas fa-bars"> </div>
 
-        <a href="home.php" class="logo">Lonely Planet</a>
+      <a href="home.php" class="logo">Lonely Planet</a>
 
-        <nav class="navbar">
+      <nav class="navbar">
          <a href="home.php">Home</a>
          <a href="about.php">About</a>
          <a href="services.php">Services</a>
-         <a href="package.php">Packages</a>
          <a href="gallery.php">Gallery</a>
+         <a href="package.php">Packages</a>
          <a href="book.php">Booking</a>
          <a href="contactus.php">Contact Us</a>
       </nav>
@@ -73,43 +73,43 @@
 
    <!--Services Section Starts-->
    <section class="services" id="services">
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-hotel"></i>
-                <h3>Affordable Hotels</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
-            </div>
+      <div class="box-container">
+         <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable Hotels</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
+         </div>
 
-            <div class="box">
-                <i class="fas fa-utensils"></i>
-                <h3>Food & Drinks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
-            </div>
+         <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food & Drinks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
+         </div>
 
-            <div class="box">
-                <i class="fas fa-bullhorn"></i>
-                <h3>Safety Guides</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
-            </div>
+         <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safety Guides</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
+         </div>
 
-            <div class="box">
-                <i class="fas fa-globe-asia"></i>
-                <h3>Around the World</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
-            </div>
+         <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around the World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
+         </div>
 
-            <div class="box">
-                <i class="fas fa-plane"></i>
-                <h3>Fast and Safe Travel</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
-            </div>
+         <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fast and Safe Travel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
+         </div>
 
-            <div class="box">
-                <i class="fas fa-hiking"></i>
-                <h3>Adventures</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
-            </div>
-        </div>
+         <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam suscipit et atque sapiente omnis.</p>
+         </div>
+      </div>
    </section>
    <!--Services Section Ends-->
 
