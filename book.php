@@ -74,34 +74,36 @@
         <div class="row">
             <div class="image"><img src="images/booking.jpg" alt="book"></div>
 
-            <form action="">
+            <form action="book_form.php" method="POST">
                 <div class="inputBox">
                     <h3>Email</h3>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" name="email">
                 </div>
                 <div class="inputBox">
                     <h3>Where to</h3>
-                    <input type="text" placeholder="Place Name">
+                    <input type="text" placeholder="Place Name" name="whereTo">
                 </div>
 
                 <div class="inputBox">
-                    <h3>Total Persons</h3>
-                    <input type="number" placeholder="How Many?">
+                    <h3>Total Guest</h3>
+                    <input type="number" placeholder="How Many?" name="totalGuests">
                 </div>
 
                 <div class="inputBox">
                     <h3>Arrival</h3>
-                    <input type="date">
+                    <input type="date" name="arrival">
                 </div>
 
                 <div class="inputBox">
                     <h3>Departure</h3>
-                    <input type="date">
+                    <input type="date" name="departure">
                 </div>
 
-                <input type="submit" value="Submit" class="btn" name="send">
+                <input type="submit" value="Submit" class="btn" name="submit">
 
             </form>
+
+            
         </div>
 
     </section>
@@ -157,6 +159,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!--Custom JS Link-->
     <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 
