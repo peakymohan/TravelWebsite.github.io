@@ -70,6 +70,33 @@
         <h1>Contact Us</h1>
     </div>
 
+    <!--Contact Section Starts-->
+    <section class="contact">
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contactus.jpg" alt="contactUsImg">
+            </div>
+
+            <form action="contact_form.php" method="POST">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="phone" placeholder="Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+
+
+    </section>
+    <!--Contact Section Ends-->
+
     <!--Footer Section Start-->
     <section class="footer">
 

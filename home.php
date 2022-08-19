@@ -27,14 +27,14 @@
         <a href="home.php" class="logo">Lonely Planet</a>
 
         <nav class="navbar">
-         <a href="home.php">Home</a>
-         <a href="about.php">About</a>
-         <a href="services.php">Services</a>
-         <a href="gallery.php">Gallery</a>
-         <a href="package.php">Packages</a>
-         <a href="book.php">Booking</a>
-         <a href="contactus.php">Contact Us</a>
-         </nav>
+            <a href="home.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="services.php">Services</a>
+            <a href="gallery.php">Gallery</a>
+            <a href="package.php">Packages</a>
+            <a href="book.php">Booking</a>
+            <a href="contactus.php">Contact Us</a>
+        </nav>
 
         <div class="icons">
             <i class="fas fa-search" id="search-btn"></i>
@@ -73,7 +73,7 @@
 
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide slide" style="background:url(images/home-1.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/home-slide-4.jpg) no-repeat">
                     <div class="content">
                         <span>Explore, Discover, Travel</span>
                         <h3>Travel Around the World</h3>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background:url(images/home-2.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
                     <div class="content">
                         <span>Explore, Discover, Travel</span>
                         <h3>Discover New Places</h3>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background:url(images/home-3.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
                     <div class="content">
                         <span>Explore, Discover, Travel</span>
                         <h3>Make Your Tour Memorable</h3>
@@ -197,6 +197,22 @@
         </div>
     </section>
     <!--home offer section ends-->
+
+    <!-- brand section starts  -->
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!--brand section  ends -->
 
     <!--Footer Section Start-->
     <section class="footer">
