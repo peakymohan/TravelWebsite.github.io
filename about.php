@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+
     <!-- swiper css link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -25,47 +26,23 @@
         <a href="home.php" class="logo">Lonely Planet</a>
 
         <nav class="navbar">
-         <a href="home.php">Home</a>
-         <a href="about.php">About</a>
-         <a href="services.php">Services</a>
-         <a href="gallery.php">Gallery</a>
-         <a href="package.php">Packages</a>
-         <a href="book.php">Booking</a>
-         <a href="contactus.php">Contact Us</a>
-         </nav>
+            <a href="home.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="services.php">Services</a>
+            <a href="gallery.php">Gallery</a>
+            <a href="package.php">Packages</a>
+            <a href="book.php">Booking</a>
+            <a href="contactus.php">Contact Us</a>
+        </nav>
 
-        <div class="icons">
-            <i class="fas fa-search" id="search-btn"></i>
-            <i class="fas fa-user" id="login-btn"></i>
-        </div>
-
-        <form action="" class="search-bar-container">
-            <input type="search" id="search-bar" placeholder="What are You looking for?">
-            <label for="search-bar" class="fas fa-search"></label>
-        </form>
+        <a href="registration.php">PROFILE</a>
 
     </section>
     <!--header section ends-->
+
     <div class="heading" style="background:url(images/header-bg-1.png) no-repeat">
         <h1>About Us</h1>
     </div>
-
-    <!--loginForm section starts-->
-    <div class="login-form-container">
-
-        <i class="fas fa-times" id="form-close"></i>
-        <form action="">
-            <h3>Login</h3>
-            <input type="email" class="box" placeholder="Email">
-            <input type="password" class="box" placeholder="Password">
-            <input type="submit" value="Log In" class="btn">
-            <input type="checkbox" id="remember">
-            <label for="remember">Remember Me</label>
-            <p>Forgot Password? <a href="#"> Reset Here</a></p>
-            <p>Don't Have an Account? <a href="#"> Sign Up!</a></p>
-        </form>
-    </div>
-    <!--loginForm section ends-->
 
     <!--about section starts-->
     <section class="about">
@@ -210,7 +187,6 @@
         </div>
 
     </section>
-
     <!-- reviews section ends -->
 
     <!--Footer Section Start-->
@@ -259,14 +235,10 @@
     </section>
     <!--Footer Section End-->
 
-
-
-
     <!--Swiper JS Link-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!--Custom JS Link-->
     <script src="js/script.js"></script>
-
 </body>
 
 </html>
