@@ -41,6 +41,8 @@ session_start();
         $pass = password_hash($password, PASSWORD_DEFAULT);
         $cpass = password_hash($cpassword, PASSWORD_DEFAULT);
 
+        $token = bin2hex(random_bytes(15));
+
         $emailquery = " select * from registration where email= '$email' ";
         $query = mysqli_query($connection,$emailquery);
 
@@ -58,7 +60,8 @@ session_start();
             if(password_verify($password,$pass) && password_verify($cpassword,$cpass) && $password==$cpassword ){
                 
                 $insertQuery = "insert into registration(fullName, phoneNum, userName, email, passWord,
-                cpassWord) values('$name', '$phone', '$username', '$email', '$pass', '$cpass')";
+                cpassWord, token, status) values('$name', '$phone', '$username', '$email', '$pass', '$cpass'
+                ,'$token','inactive')";
 
                 $executeQuery = mysqli_query($connection, $insertQuery);
 
@@ -97,17 +100,17 @@ session_start();
     <div class="container">
         <div class="forms-container">
             <div class="signin-signup">
-                <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST" class="sign-in-form">
+                <form action="login.php" method="POST" class="sign-in-form">
                     <h2 class="title">Sign in</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" required/>
+                        <input type="text" name="luserName" placeholder="Username" required/>
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" required/>
+                        <input type="password" name="lpassWord" placeholder="Password" required/>
                     </div>
-                    <input type="submit" name="submit" value="Login" class="btn solid" />
+                    <input type="submit" name="logIn" value="Login" class="btn solid" />
                     <p class="social-text">Or Sign in with social platforms</p>
                     <div class="social-media">
                         <a href="#" class="social-icon">

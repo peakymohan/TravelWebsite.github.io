@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['userName'])){
+    echo "logged out";
+    header("location:registration.php");
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +19,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-
+    <?php include "login.php" ?>
     <!-- swiper css link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -37,6 +50,9 @@
         </nav>
 
         <a href="registration.php">PROFILE</a>
+        <h4>Hi <?php echo $_SESSION['userName']; ?></h4>
+
+        <a href="logout.php">LogOut</a>
 
     </section>
     <!--header section ends-->
