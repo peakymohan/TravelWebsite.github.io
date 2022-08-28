@@ -37,7 +37,7 @@ if(!isset($_SESSION['userName'])){
     <section class="header">
         <div id="menu-btn" class="fas fa-bars"> </div>
 
-        <a href="home.php" class="logo">Lonely Planet</a>
+        <a href="home.php" class="logo">Go See!</a>
 
         <nav class="navbar">
             <a href="home.php">Home</a>
