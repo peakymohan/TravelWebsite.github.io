@@ -158,7 +158,7 @@
             <img src="images/img-1.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> India </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>With its sumptuous mix of traditions, spiritual beliefs, festivals, architecture and landscapes, your memories of India will blaze bright long after you've left its shores.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -175,7 +175,7 @@
             <img src="images/img-2.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Malaysia </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Entwined by shared history, Southeast Asia’s terrific trio offer steamy jungles packed with wildlife,culinary sensations and multi-ethnic culture.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -192,7 +192,7 @@
             <img src="images/img-3.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Canada </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Canada is more than its hulking-mountain, craggy-coast good looks: it also cooks extraordinary meals, rocks cool culture and unfurls wild.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -209,7 +209,7 @@
             <img src="images/img-4.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Japan </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Japan is truly timeless, a place where ancient traditions are fused with modern life as if it were the most natural thing in the world.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -226,7 +226,7 @@
             <img src="images/img-5.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> USA </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>The great American experience is about so many things: bluegrass and beaches,restaurant-loving cities and big open skies.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -243,7 +243,7 @@
             <img src="images/img-6.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Russia </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>The world's largest country offers it all, from historic cities and idyllic countryside to artistic riches, epic train rides nightlife.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
