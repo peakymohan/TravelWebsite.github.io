@@ -178,7 +178,7 @@ session_start();
                 <div class="content">
                     <h3>New here ?</h3>
                     <p>
-                    Sign up to book your packages!
+                    Sign up to book your preferable packages!
                     </p>
                     <button class="btn transparent" id="sign-up-btn">
                         Sign up
