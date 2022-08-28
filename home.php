@@ -106,7 +106,9 @@ if(!isset($_SESSION['userName'])){
 
         <div class="content">
             <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
+            <p>We believe travel can help foster the connection and understanding 
+that makes meaningful moments possible.Our goal is to help more people from more backgrounds experience the joy of exploration. 
+Because we believe this builds a kinder, more inclusive, more open-minded world.We pursue a vision of the world in which all are welcome.</p>
             <a href="about.php" class="btn">Read More</a>
         </div>
 
@@ -182,7 +184,7 @@ if(!isset($_SESSION['userName'])){
     <section class="home-offer">
         <div class="content">
             <h3>Upto 45% Off!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores nemo ipsum inventore veritatis magni!</p>
+            <p>Join our newsletter and discover new destinations to inspire the traveler within. Plus, get 20% off at our online shop. Every week you'll receive expert advice, tips, exclusive offers, and much more.</p>
             <a href="book.php" class="btn">Book Now!</a>
         </div>
     </section>

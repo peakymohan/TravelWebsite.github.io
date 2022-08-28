@@ -53,8 +53,12 @@
 
         <div class="content">
             <h3>Why Choose Us?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos amet tempora sequi delectus, ut, soluta laboriosam est culpa nihil</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam molestiae asperiores quia nobis libero deserunt deleniti excepturi. Blanditiis, rem?</p>
+            <p>We know travel has a social, economic and environmental consequences. 
+We must equip travelers with the knowledge to make informed choices 
+about their impact, and inspire them to travel with generosity.</p>
+            <p>We think everyone deserves to experience the joy of travel. 
+Whatever your background or needs and no matter where you 
+want to go: we are here to empower your journey.</p>
 
             <div class="icons-container">
 
@@ -70,7 +74,7 @@
 
                 <div class="icons">
                     <i class="fas fa-headset"></i>
-                    <span>24/7 Guide Services</span>
+                    <span>24/7 Services</span>
                 </div>
 
             </div>
