@@ -85,7 +85,7 @@ want to go: we are here to empower your journey.</p>
     <!-- reviews section starts  -->
     <section class="reviews">
 
-        <h1 class="heading-title">Client Reviews</h1>
+        <h1 class="heading-title">Tourists Reviews</h1>
 
         <div class="swiper reviews-slider">
 
@@ -98,10 +98,7 @@ want to go: we are here to empower your journey.</p>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>We have just returned from a Thailand Holiday booked through Travel Online.We were a little apprehensive because after booking despite my phone calls and emails. However, it all went smoothly our flights, transfers and accomodation was exactly as we expected.</p>
                     <h3>John Smith</h3>
                     <span>Traveler</span>
                     <img src="images/pic-1.png" alt="">
@@ -114,10 +111,7 @@ want to go: we are here to empower your journey.</p>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.Thank you travel online, I will book through your company again and again</p>
                     <h3>Bella Poarch</h3>
                     <span>Traveler</span>
                     <img src="images/pic-2.png" alt="">
@@ -129,10 +123,9 @@ want to go: we are here to empower your journey.</p>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>I had full communication at all times with our travel agent.
+Prompt responses when I needed to know an answer to one of my questions.
+Pleasure to recommend Lisa to friends and use Travelonline in the future.Thank you travel online, I will book through your company again and again</p>
                     <h3>Madson</h3>
                     <span>Traveler</span>
                     <img src="images/pic-3.png" alt="">
@@ -146,10 +139,8 @@ want to go: we are here to empower your journey.</p>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
+Thank you travel online, I will book through your company again and again</p>
                     <h3>Julia Alexa</h3>
                     <span>Traveler</span>
                     <img src="images/pic-4.png" alt="">
@@ -161,10 +152,8 @@ want to go: we are here to empower your journey.</p>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
+Thank you travel online, I will book through your company again and again</p>
                     <h3>Yaeow</h3>
                     <span>Traveler</span>
                     <img src="images/pic-5.png" alt="">
@@ -177,10 +166,8 @@ want to go: we are here to empower your journey.</p>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
+Thank you travel online, I will book through your company again and again</p>
                     <h3>Tessa</h3>
                     <span>Traveler</span>
                     <img src="images/pic-6.png" alt="">
