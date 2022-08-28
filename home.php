@@ -126,7 +126,7 @@ Because we believe this builds a kinder, more inclusive, more open-minded world.
                 <img src="images/p-1.jpg" alt="p1">
                 <div class="content">
                     <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <p>Mumbai, formerly Bombay, is big. It’s full of dreamers and hard-labourers, starlets and gangsters, stray dogs and exotic birds, artists and servants, fisherfolk and crorepatis (millionaires), and lots and lots of people.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -143,7 +143,7 @@ Because we believe this builds a kinder, more inclusive, more open-minded world.
                 <img src="images/p-2.jpg" alt="p2">
                 <div class="content">
                     <h3><i class="fas fa-map-marker-alt"></i> Sydney </h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <p>Sydney, spectacularly draped around its glorious harbour and beaches, has visual wow factor like few other cities. Scratch the surface and it only gets better. On the Wild Side National parks ring the city and penetrate right into its heart.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -160,7 +160,7 @@ Because we believe this builds a kinder, more inclusive, more open-minded world.
                 <img src="images/p-3.jpg" alt="p1">
                 <div class="content">
                     <h3><i class="fas fa-map-marker-alt"></i> Hawai </h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <p>Sunrises and sunsets are so spectacular that they're cause for celebration all by themselves, such as atop Haleakalā volcano on Maui.Just look at these sugary beaches, Technicolor coral reefs and volcanoes adventurous spirits.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
