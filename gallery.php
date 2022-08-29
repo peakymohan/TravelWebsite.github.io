@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <?php include "login.php" ?>
 
     <!-- swiper css link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -37,6 +38,7 @@
         </nav>
 
         <a href="registration.php" class="sign">Sign in</a>
+        <h3><?php echo $_SESSION['userName']; ?></h3>
 
     </section>
     <!--header section ends-->

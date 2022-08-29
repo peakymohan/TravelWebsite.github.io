@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <?php include "login.php" ?>
 
     <!-- swiper css link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -36,6 +37,7 @@
         </nav>
 
         <a href="registration.php" class="sign">Sign in</a>
+        <h3><?php echo $_SESSION['userName']; ?></h3>
 
     </section>
     <!--header section ends-->
@@ -53,12 +55,12 @@
 
         <div class="content">
             <h3>Why Choose Us?</h3>
-            <p>We know travel has a social, economic and environmental consequences. 
-We must equip travelers with the knowledge to make informed choices 
-about their impact, and inspire them to travel with generosity.</p>
-            <p>We think everyone deserves to experience the joy of travel. 
-Whatever your background or needs and no matter where you 
-want to go: we are here to empower your journey.</p>
+            <p>We know travel has a social, economic and environmental consequences.
+                We must equip travelers with the knowledge to make informed choices
+                about their impact, and inspire them to travel with generosity.</p>
+            <p>We think everyone deserves to experience the joy of travel.
+                Whatever your background or needs and no matter where you
+                want to go: we are here to empower your journey.</p>
 
             <div class="icons-container">
 
@@ -124,8 +126,8 @@ want to go: we are here to empower your journey.</p>
                         <i class="fas fa-star"></i>
                     </div>
                     <p>I had full communication at all times with our travel agent.
-Prompt responses when I needed to know an answer to one of my questions.
-Pleasure to recommend Lisa to friends and use Travelonline in the future.Thank you travel online, I will book through your company again and again</p>
+                        Prompt responses when I needed to know an answer to one of my questions.
+                        Pleasure to recommend Lisa to friends and use Travelonline in the future.Thank you travel online, I will book through your company again and again</p>
                     <h3>Madson</h3>
                     <span>Traveler</span>
                     <img src="images/pic-3.png" alt="">
@@ -140,7 +142,7 @@ Pleasure to recommend Lisa to friends and use Travelonline in the future.Thank y
                         <i class="fas fa-star"></i>
                     </div>
                     <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
-Thank you travel online, I will book through your company again and again</p>
+                        Thank you travel online, I will book through your company again and again</p>
                     <h3>Julia Alexa</h3>
                     <span>Traveler</span>
                     <img src="images/pic-4.png" alt="">
@@ -153,7 +155,7 @@ Thank you travel online, I will book through your company again and again</p>
                         <i class="fas fa-star"></i>
                     </div>
                     <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
-Thank you travel online, I will book through your company again and again</p>
+                        Thank you travel online, I will book through your company again and again</p>
                     <h3>Yaeow</h3>
                     <span>Traveler</span>
                     <img src="images/pic-5.png" alt="">
@@ -167,7 +169,7 @@ Thank you travel online, I will book through your company again and again</p>
                         <i class="fas fa-star"></i>
                     </div>
                     <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
-Thank you travel online, I will book through your company again and again</p>
+                        Thank you travel online, I will book through your company again and again</p>
                     <h3>Tessa</h3>
                     <span>Traveler</span>
                     <img src="images/pic-6.png" alt="">
