@@ -37,7 +37,7 @@ if(!isset($_SESSION['userName'])){
     <section class="header">
         <div id="menu-btn" class="fas fa-bars"> </div>
 
-        <a href="home.php" class="logo">Lonely Planet</a>
+        <a href="home.php" class="logo">Go See!</a>
 
         <nav class="navbar">
             <a href="home.php">Home</a>
@@ -49,10 +49,10 @@ if(!isset($_SESSION['userName'])){
             <a href="contactus.php">Contact Us</a>
         </nav>
 
-        <a href="registration.php">PROFILE</a>
-        <h4>Hi <?php echo $_SESSION['userName']; ?></h4>
+        <a href="registration.php" class="sign">Sign in</a>
+        <h3><?php echo $_SESSION['userName']; ?></h3>
 
-        <a href="logout.php">LogOut</a>
+        
 
     </section>
     <!--header section ends-->
@@ -106,7 +106,9 @@ if(!isset($_SESSION['userName'])){
 
         <div class="content">
             <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
+            <p>We believe travel can help foster the connection and understanding 
+that makes meaningful moments possible.Our goal is to help more people from more backgrounds experience the joy of exploration. 
+Because we believe this builds a kinder, more inclusive, more open-minded world.We pursue a vision of the world in which all are welcome.</p>
             <a href="about.php" class="btn">Read More</a>
         </div>
 
@@ -124,7 +126,7 @@ if(!isset($_SESSION['userName'])){
                 <img src="images/p-1.jpg" alt="p1">
                 <div class="content">
                     <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <p>Mumbai, formerly Bombay, is big. It’s full of dreamers and hard-labourers, starlets and gangsters, stray dogs and exotic birds, artists and servants, fisherfolk and crorepatis (millionaires), and lots and lots of people.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -141,7 +143,7 @@ if(!isset($_SESSION['userName'])){
                 <img src="images/p-2.jpg" alt="p2">
                 <div class="content">
                     <h3><i class="fas fa-map-marker-alt"></i> Sydney </h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <p>Sydney, spectacularly draped around its glorious harbour and beaches, has visual wow factor like few other cities. Scratch the surface and it only gets better. On the Wild Side National parks ring the city and penetrate right into its heart.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -158,7 +160,7 @@ if(!isset($_SESSION['userName'])){
                 <img src="images/p-3.jpg" alt="p1">
                 <div class="content">
                     <h3><i class="fas fa-map-marker-alt"></i> Hawai </h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+                    <p>Sunrises and sunsets are so spectacular that they're cause for celebration all by themselves, such as atop Haleakalā volcano on Maui.Just look at these sugary beaches, Technicolor coral reefs and volcanoes adventurous spirits.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -182,7 +184,7 @@ if(!isset($_SESSION['userName'])){
     <section class="home-offer">
         <div class="content">
             <h3>Upto 45% Off!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores nemo ipsum inventore veritatis magni!</p>
+            <p>Join our newsletter and discover new destinations to inspire the traveler within. Plus, get 20% off at our online shop. Every week you'll receive expert advice, tips, exclusive offers, and much more.</p>
             <a href="book.php" class="btn">Book Now!</a>
         </div>
     </section>

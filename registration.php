@@ -13,7 +13,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login/Registration</title>
 
-    <?php include 'links/links.php' ?>
+    
 
     <!--Font Awesome CDN Link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -178,8 +178,7 @@ session_start();
                 <div class="content">
                     <h3>New here ?</h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                        ex ratione. Aliquid!
+                    Sign up to book your preferable packages!
                     </p>
                     <button class="btn transparent" id="sign-up-btn">
                         Sign up
@@ -191,8 +190,7 @@ session_start();
                 <div class="content">
                     <h3>One of us ?</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                        laboriosam ad deleniti.
+                        Have an account? please sign in!
                     </p>
                     <button class="btn transparent" id="sign-in-btn">
                         Sign in

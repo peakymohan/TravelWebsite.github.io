@@ -24,7 +24,7 @@
    <section class="header">
         <div id="menu-btn" class="fas fa-bars"> </div>
 
-        <a href="home.php" class="logo">Lonely Planet</a>
+        <a href="home.php" class="logo">Go See!</a>
 
         <nav class="navbar">
             <a href="home.php">Home</a>
@@ -36,7 +36,7 @@
             <a href="contactus.php">Contact Us</a>
         </nav>
 
-        <a href="registration.php">PROFILE</a>
+        <a href="registration.php" class="sign">Sign in</a>
 
     </section>
    <!--header section ends-->
@@ -56,7 +56,7 @@
             <img src="images/p-1.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Mumbai, formerly Bombay, is big. It’s full of dreamers and hard-labourers, starlets and gangsters, stray dogs and exotic birds, artists and servants, fisherfolk and crorepatis (millionaires), and lots and lots of people.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -73,7 +73,7 @@
             <img src="images/p-2.jpg" alt="p2">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Sydney </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Sydney, spectacularly draped around its glorious harbour and beaches, has visual wow factor like few other cities. Scratch the surface and it only gets better. On the Wild Side National parks ring the city and penetrate right into its heart.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -90,7 +90,7 @@
             <img src="images/p-3.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Hawai </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Sunrises and sunsets are so spectacular that they're cause for celebration all by themselves, such as atop Haleakalā volcano on Maui.Just look at these sugary beaches, Technicolor coral reefs and volcanoes adventurous spirits.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -107,7 +107,7 @@
             <img src="images/p-4.jpg" alt="p4">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Paris </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Paris' monument-lined boulevards, museums, classical bistros and boutiques are enhanced by a new wave of multimedia galleries, creative wine bars, design shops and tech start-ups.The word 'Parisian' is synonymous with style.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -124,7 +124,7 @@
             <img src="images/p-5.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Tokyo </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>More than any one sight, it's the city itself that enchants visitors. It's a sprawling, organic thing, stretching as far as the eye can see. Always changing, and with a diverse collection of neighborhoods, no two experiences of the city.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -141,7 +141,7 @@
             <img src="images/p-6.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Egypt </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>The mighty Nile and magnificent monuments entice many to Egypt while the beguiling desert and lush delta wow visitors. Add in the country's long and lingering past and culture full of stories, it is a travelers dream.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -158,7 +158,7 @@
             <img src="images/img-1.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> India </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>With its sumptuous mix of traditions, spiritual beliefs, festivals, architecture and landscapes, your memories of India will blaze bright long after you've left its shores.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -175,7 +175,7 @@
             <img src="images/img-2.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Malaysia </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Entwined by shared history, Southeast Asia’s terrific trio offer steamy jungles packed with wildlife,culinary sensations and multi-ethnic culture.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -192,7 +192,7 @@
             <img src="images/img-3.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Canada </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Canada is more than its hulking-mountain, craggy-coast good looks: it also cooks extraordinary meals, rocks cool culture and unfurls wild.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -209,7 +209,7 @@
             <img src="images/img-4.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Japan </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>Japan is truly timeless, a place where ancient traditions are fused with modern life as if it were the most natural thing in the world.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -226,7 +226,7 @@
             <img src="images/img-5.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> USA </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>The great American experience is about so many things: bluegrass and beaches,restaurant-loving cities and big open skies.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -243,7 +243,7 @@
             <img src="images/img-6.jpg" alt="p1">
             <div class="content">
                <h3><i class="fas fa-map-marker-alt"></i> Russia </h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, veniam!</p>
+               <p>The world's largest country offers it all, from historic cities and idyllic countryside to artistic riches, epic train rides nightlife.</p>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>

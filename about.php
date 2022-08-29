@@ -23,7 +23,7 @@
     <section class="header">
         <div id="menu-btn" class="fas fa-bars"> </div>
 
-        <a href="home.php" class="logo">Lonely Planet</a>
+        <a href="home.php" class="logo">Go See!</a>
 
         <nav class="navbar">
             <a href="home.php">Home</a>
@@ -35,7 +35,7 @@
             <a href="contactus.php">Contact Us</a>
         </nav>
 
-        <a href="registration.php">PROFILE</a>
+        <a href="registration.php" class="sign">Sign in</a>
 
     </section>
     <!--header section ends-->
@@ -53,8 +53,12 @@
 
         <div class="content">
             <h3>Why Choose Us?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos amet tempora sequi delectus, ut, soluta laboriosam est culpa nihil</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam molestiae asperiores quia nobis libero deserunt deleniti excepturi. Blanditiis, rem?</p>
+            <p>We know travel has a social, economic and environmental consequences. 
+We must equip travelers with the knowledge to make informed choices 
+about their impact, and inspire them to travel with generosity.</p>
+            <p>We think everyone deserves to experience the joy of travel. 
+Whatever your background or needs and no matter where you 
+want to go: we are here to empower your journey.</p>
 
             <div class="icons-container">
 
@@ -70,7 +74,7 @@
 
                 <div class="icons">
                     <i class="fas fa-headset"></i>
-                    <span>24/7 Guide Services</span>
+                    <span>24/7 Services</span>
                 </div>
 
             </div>
@@ -81,7 +85,7 @@
     <!-- reviews section starts  -->
     <section class="reviews">
 
-        <h1 class="heading-title">Client Reviews</h1>
+        <h1 class="heading-title">Tourists Reviews</h1>
 
         <div class="swiper reviews-slider">
 
@@ -94,10 +98,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>We have just returned from a Thailand Holiday booked through Travel Online.We were a little apprehensive because after booking despite my phone calls and emails. However, it all went smoothly our flights, transfers and accomodation was exactly as we expected.</p>
                     <h3>John Smith</h3>
                     <span>Traveler</span>
                     <img src="images/pic-1.png" alt="">
@@ -110,10 +111,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.Thank you travel online, I will book through your company again and again</p>
                     <h3>Bella Poarch</h3>
                     <span>Traveler</span>
                     <img src="images/pic-2.png" alt="">
@@ -125,10 +123,9 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>I had full communication at all times with our travel agent.
+Prompt responses when I needed to know an answer to one of my questions.
+Pleasure to recommend Lisa to friends and use Travelonline in the future.Thank you travel online, I will book through your company again and again</p>
                     <h3>Madson</h3>
                     <span>Traveler</span>
                     <img src="images/pic-3.png" alt="">
@@ -142,10 +139,8 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
+Thank you travel online, I will book through your company again and again</p>
                     <h3>Julia Alexa</h3>
                     <span>Traveler</span>
                     <img src="images/pic-4.png" alt="">
@@ -157,10 +152,8 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
+Thank you travel online, I will book through your company again and again</p>
                     <h3>Yaeow</h3>
                     <span>Traveler</span>
                     <img src="images/pic-5.png" alt="">
@@ -173,10 +166,8 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet minima quos placeat facilis, cumque aliquid dolorem
-                        vitae eius esse commodi incidunt hic quis aut earum fuga cupiditate tempore,
-                        doloremque illum quia reiciendis perspiciatis consequuntur. Temporibus.</p>
+                    <p>Phenomenal service. The ease of booking with travel online was fantastic. The when everything is booked, great communication and they delivered exactly what they said they would and more.
+Thank you travel online, I will book through your company again and again</p>
                     <h3>Tessa</h3>
                     <span>Traveler</span>
                     <img src="images/pic-6.png" alt="">
