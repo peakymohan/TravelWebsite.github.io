@@ -35,7 +35,7 @@
             <a href="contactus.php">Contact Us</a>
         </nav>
 
-        <a href="registration.php">PROFILE</a>
+        <a href="registration.php" class="sign">Sign in</a>
 
     </section>
     <!--header section ends-->

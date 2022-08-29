@@ -15,6 +15,9 @@
 
     <!--Custom CSS File Link-->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <!--font awesome kit-->
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -36,7 +39,7 @@
             <a href="contactus.php">Contact Us</a>
         </nav>
 
-        <a href="registration.php">PROFILE</a>
+        <a href="registration.php" class="sign">Sign in</a>
 
     </section>
     <!--header section ends-->
@@ -45,29 +48,80 @@
     </div>
 
     <!--Contact Section Starts-->
-    <section class="contact">
+    <section class="container">
 
-        <div class="row">
-            <div class="image">
-                <img src="images/contactus.jpg" alt="contactUsImg">
+        <img src="images/shape.png" class="square" alt="" />
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    
+                </p>
+                  <br> <br> <br>
+                <div class="info">
+                    <div class="information">
+                        <img src="images/location.png" class="icon" alt="" />
+                        <p>92 Cherry Drive Uniondale, NY 11553</p>
+                    </div>
+                    <div class="information">
+                        <img src="iimagesmg/email.png" class="icon" alt="" />
+                        <p>lorem@ipsum.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/phone.png" class="icon" alt="" />
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <form action="contact_form.php" method="POST">
-                <div class="inputBox">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                </div>
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
 
-                <div class="inputBox">
-                    <input type="phone" placeholder="Number">
-                    <input type="text" placeholder="Subject">
-                </div>
-                <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                <input type="submit" class="btn" value="Send Message">
-            </form>
+                <form action="contact_form.php" method="POST">
+                    <h3 class="title">Help us with your Info!</h3>
+                    <div class="input-container">
+                        <input type="text" name="username" class="input" />
+                        <label for="">Username</label>
+                        <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" />
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" />
+                        <label for="">Phone</label>
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn" name="sendBtn" />
+                </form>
+            </div>
         </div>
-
-
     </section>
     <!--Contact Section Ends-->
 
@@ -120,7 +174,7 @@
     <!--Swiper JS Link-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!--Custom JS Link-->
-    <script src="js/script.js"></script>
+    <script src="js/cont.js"></script>
 </body>
 
 </html>

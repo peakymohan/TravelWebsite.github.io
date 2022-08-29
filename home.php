@@ -49,10 +49,10 @@ if(!isset($_SESSION['userName'])){
             <a href="contactus.php">Contact Us</a>
         </nav>
 
-        <a href="registration.php">PROFILE</a>
-        <h4>Hi <?php echo $_SESSION['userName']; ?></h4>
+        <a href="registration.php" class="sign">Sign in</a>
+        <h3><?php echo $_SESSION['userName']; ?></h3>
 
-        <a href="logout.php">LogOut</a>
+        
 
     </section>
     <!--header section ends-->
