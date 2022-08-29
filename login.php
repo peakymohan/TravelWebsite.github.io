@@ -30,7 +30,7 @@ session_start();
                 echo "login successfull";
                 ?>
                 <script>
-                    location.replace("home.php");
+                    location.replace("userprofile.php");
                 </script>
                 <?php
 

@@ -101,7 +101,7 @@ if(!isset($_SESSION['userName'])){
     <section class="home-about">
 
         <div class="image">
-            <img src="images/about-img.jpg" alt="abt img">
+            <img src="images/about.jpg" alt="abt img">
         </div>
 
         <div class="content">
