@@ -1,16 +1,3 @@
-<?php
-
-session_start();
-
-if(!isset($_SESSION['userName'])){
-    echo "logged out";
-    header("location:registration.php");
-}
-
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
